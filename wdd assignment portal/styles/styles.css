@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
+body{
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 0;
+    background-color: #ffff;
+    
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(10, 75px);
+    grid-template-rows: repeat(10, 50px);
+    background-color: #000080;
+    height: 300px;
+    width: 760px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+    margin-top: 10px;
+    box-shadow: 10px 5px 30px 10px #778899;
+    
+}
+
+img{
+    width: 150px;
+    grid-column: 2/4;
+    grid-row: 2/6;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Quicksand';
+    color: #ffff;
+    font-size: 50px;
+    font-weight: lighter;
+    grid-row: 2/3;
+    grid-column: 3/10;
+    margin-left: 100px;
+
+    
+    
+    
+}
+
+h2{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px #808080;
+    margin-left: 35px;
+}
+
+li{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color:#2f2e2e;
+    margin-left: 50px;
+}
+
+#paragraph{
+   font-family: 'Quicksand';
+   font-size: 20px;
+   color: #2f2e2e;
+   margin-top: -10px;
+   margin-left: 35px;
+
+
+}
+
+footer{
+    background-color: #000080;
+    
+    width: 760px;
+    height: 120px;
+    box-shadow: 10px 5px 30px 10px #778899;
+    border-radius: 15px;
+    margin-top: 70px;
+    
+    
+
+    
+}
+
+
+footer p{
+    color: #ffff00;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    text-align: center;
+    margin-top: -30px;
+    
+    
+    
+}
+
+hr{
+    width: 700px;
+}
+#footerText{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    text-align:center;
+    font-size: 30px;
+    color: #ffff;
+    padding-top: 30px; 
+}
+
+
+
+
