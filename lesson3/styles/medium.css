@@ -1,40 +1,35 @@
 @media (min-width: 37.5em) {
-	nav {
-		flex-direction: row;
-	}
-	
-	nav a {
-		font-size: 1.1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  nav {
+    flex-direction: row;
+  }
 
-   img {
+  nav a {
+    font-size: 1.1rem;
+  }
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   }
-   #nav-design{
+  }
+  #nav-design {
     flex-direction: row;
     padding-bottom: 10rem;
-    
+  }
 
-   }
-
-   #nav-design a {
+  #nav-design a {
     display: flex;
-	color: #012e4c;
-	padding: 15px;
+    color: #012e4c;
+    padding: 15px;
     flex: 1 1 auto;
     flex-direction: column;
+  }
 
-   
-
-   }
-
-    #nav-design a:hover {
-	background-color: #1c98ed;
-	color: #ffd230;
-}
+  #nav-design a:hover {
+    background-color: #1c98ed;
+    color: #ffd230;
+  }
 }
