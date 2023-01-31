@@ -1,8 +1,4 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 header {
    
@@ -127,29 +123,6 @@ header {
     margin: 5px 2px;
     border-radius: 50%;
     
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-    grid-column: 4;
-    grid-row: 1;
-    margin-left: 170px;
-    margin-top: 45px;
-    
-  }
-
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-    grid-column: 5;
-    grid-row: 1;
-    margin-left: 130px;
-    margin-top: 45px;
   }
   
 
@@ -293,6 +266,5 @@ header {
  
 
   
-
 
 
