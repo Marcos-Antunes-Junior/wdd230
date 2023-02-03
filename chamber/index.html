@@ -20,53 +20,77 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Barra Lighthouse Chamber</title>
   </head>
-<body>
-  <header>
-    <h1>Barra Lighthouse</h1>
+  <body>
+
+    <header>
+        <img id="logo" src="./images/barra_lighthouse.png" alt="logo">
+        <h1>Barra Lighthouse</h1>
+        <h2>Chamber of Commerce</h2>
+        <img id="facebook" src="./images/facebook.png" alt="Facebook">
+        <img id="instagram" src="./images/instagram.png" alt="Instagram">
+        <button id="menuButton">&#9776;</button>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+        </nav>
+        <p class="Currentdate"></p>
+    </header> 
     
-    <img src="images/barra_lighthouse.png" alt="logo"/>
-    <h2>Connect With Us</h2>
-    <div class="date"></div>
-  </header>
-    <nav>
-      <ul class="navigation">
-        <li><a id="menu" href="#"></a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Contact</a></li>
-        
-      </ul>
-    </nav>
     <main>
-      <div class="card">
-      <h3>Hero with site name and call to action</h3>
-      </div>
-      <div class="card1">
-      <h3>Event</h3>
-      </div>
-      <div class="card2">
-      <h3>weather</h3>
-      </div>
-      <div class="card3">
-        <h3>News Release</h3>
-        </div>
+        
+        <section id="hero" ><h3>Welcome to Salvador!</h3>
+            <br><br><br><br><br><br><br>
+            <button class="join-bt">Join the Chamber</button><a href="#"></a> 
 
-      <div class="cards">
-      <div class="card4"><h3>Spotlight1</h3></div>
-      <div class="card5"><h3>Spotlight2</h3></div>
-      <div class="card7"><h3>Spotlight3</h3></div>
+        </section>
+        
+        
+        <section id="event"><h4>Event<span class="message1"></span></h4>
+            
+        </section>
+        <section id="weather">Weather</section>
+        <section id="joinUs">
+            <button class="join-btn">
+            Join Us!</button><a href="#"></a> 
+            <p id="joinP">Discover how to join the Barra Lighthouse Chamber of Commerce and how it will benefit your organization!</p>
+        </section>
+        <section id="newsRelease"><h4>News release</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p>
+        </section>
+        <section id="spotlight">
+            <article>English Like a Boss
+                <p><span>"A high-quality english school"</span></p>
+                <img src="./images/united-states.png" alt="flag" width="60">
+                
+                <p>+55 71 4321-8765</p>
+               <p><span>contact@englishlikeaboss.com</span></p>
 
-      </div>
 
-      <div class="card6">
-      <h3>Join</h3>
+            </article>
+        
+            <article>Thankful Transport
+                <p><span>"We get it there for you"</span></p>
+                <img src="./images/truck.png" alt="thankful" width="60">
 
-      </div>
+                    
+                    <p> +55 71 5678-1234</p>
+                    <p><span>contact@thankfultransport.com</span></p>
 
 
+            </article>
+            <article>IT Services
+                <p><span>"Best Qualified IT firm"</span></p>
+                <img src="./images/technical-support.png" alt="Logo" width="60">
+                <p>+55 71 1234-5678</p>
+                <p><span>contact@itservices.com</span></p>
 
+
+            </article>
+        </section>
     </main>
   
   
@@ -74,20 +98,21 @@
 
 
     <footer>
-
-      <div id="informations">
-      <div id="address">
-        <h3>Barra Lighthouse Chamber of Commerce</h3>
+      <img src="./images/barra_lighthouse.png" alt="logo"/>
+      
+      <div class="address">
+        <h4>Barra Lighthouse Chamber of Commerce</h4>
         <p>St. Largo do Farol da Barra, Salvador</p>
-        <img src="images/barra_lighthouse.png" alt="logo"/>
-      </div>
-      <div id="contact">
-        <p>info@barralighthouse.org</p>
-        <p>+55 71 7777-8888</p>
         
       </div>
-      <a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" class="fa fa-map-marker"><span>Location_Map</span></a>
-    </div> 
+      <div class="contact">
+        <p>info@barralighthouse.org</p>
+        <p>+55 71 7777-8888</p>
+        <p id="map"><a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" id="map1">📍 Location Map </a></p>
+        
+      </div>
+      
+    
       <hr />
 
       <p>
@@ -96,6 +121,8 @@
         <span id="lastModified"></span>
       </p>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
+
+
