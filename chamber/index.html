@@ -23,7 +23,7 @@
   <body>
 
     <header>
-        <img id="logo" src="./images/barra_lighthouse.png" alt="logo">
+        <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
         <h1>Barra Lighthouse</h1>
         <h2>Chamber of Commerce</h2>
         <img id="facebook" src="./images/facebook.png" alt="Facebook">
@@ -43,8 +43,15 @@
     
     <main>
         
-        <section id="hero" ><h3>Welcome to Salvador!</h3>
-            <br><br><br><br><br><br><br>
+        
+        <section id="hero" >
+          
+          
+       
+ 
+        <!---<h3>Welcome to Salvador!</h3>--->
+          
+            
             <button class="join-bt">Join the Chamber</button><a href="#"></a> 
 
         </section>
@@ -53,7 +60,17 @@
         <section id="event"><h4>Event<span class="message1"></span></h4>
             
         </section>
-        <section id="weather">Weather</section>
+        <section id="weather">
+         <h3>Weather</h3>
+        <img id ="weather-img" src="./images/cloudy.png" alt="cloudy">
+        <p id="temperature"><span class="temperature"></span>°C</p>
+        <p class="status">Partly Cloudy</p>
+        <hr>
+        <p id="wind-speed">Wind Speed: <span class="wind-speed"></span><span> km/h</span></p>
+        <p id="wind-chill">Wind Chill: <span class="wind-chill"></span></p>
+        
+
+        </section>
         <section id="joinUs">
             <button class="join-btn">
             Join Us!</button><a href="#"></a> 
@@ -99,7 +116,7 @@
 
 
     <footer>
-      <img src="./images/barra_lighthouse.png" alt="logo"/>
+      <img src="./images/barra_lighthouse.webp" alt="logo"/>
       
       <div class="address">
         <h4>Barra Lighthouse Chamber of Commerce</h4>
@@ -117,12 +134,13 @@
       <hr />
 
       <p>
-        ©<span id="year">2023</span> Barra Lighthouse Chamber | Marcos Antunes
+        ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes
         | WDD 230 Project | Last Updated:
         <span id="lastModified"></span>
       </p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>
 

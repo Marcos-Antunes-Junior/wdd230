@@ -116,7 +116,7 @@ main section#newsRelease {
   color: #000;
   font-family: "Fira Sans", sans-serif;
   font-weight: lighter;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 main section#joinUs {
@@ -162,6 +162,60 @@ main section#spotlight article:nth-child(3) {
 
 
 }
+
+
+
+.join-bt, .hero {
+  
+    margin-top: 10px;
+  }
+
+  main section#weather img{
+    width: 60px;
+    margin-left: -20px;
+    grid-column: 2/3;
+   
+  }
+  #temperature{
+    grid-column: 3/4;
+    margin-left: -20px;
+   
+   
+  }
+  .status{
+    margin: 0 auto;
+  }
+
+  #wind-speed{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  #wind-chill{
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+    
+    
+  }
+
+  main section#weather hr{
+    
+    margin: 0 auto;
+    margin-top: 20px;    
+  }
+ 
+  main section#hero {
+    background-image: url('../images/wdd230-org-medium.jpg');
+
+    
+  }
+  
+  
+ 
 
 
 /*FOOTER*/
