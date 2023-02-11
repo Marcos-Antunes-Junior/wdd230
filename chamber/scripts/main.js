@@ -43,7 +43,7 @@ event1.append(p);
 
 const d = new Date();
 
-if (d.getDate() >= 1 && d.getDate() <= 2){
+if (d.getDay() >= 1 && d.getDay() <= 2){
 image.setAttribute("src", "images/" + myPicture);
 const weekMessage = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 p.innerHTML = weekMessage;
