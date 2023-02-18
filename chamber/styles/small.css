@@ -486,7 +486,7 @@ font-style: italic;
 
 /* --- DISCOVER PAGE --- */
 
-main #discover{
+#discover{
   display: grid;
   grid-template-columns: 1fr;
 
@@ -497,7 +497,7 @@ main #discover{
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px solid #000;
-  background-color: #fff;
+  background-image: linear-gradient(to left, #0461A3 , #71BCF1);
   box-shadow: 2px 2px 10px black;
  
 }
@@ -520,6 +520,7 @@ div img {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: bolder;
+  color: #fff;
 }
 
 
@@ -527,9 +528,83 @@ div img {
   color:#fff;
   font-family: "Fira Sans", sans-serif;
   font-size: 2rem;
+  animation: glow 2s ease-in-out infinite;
 
 }
 
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(213, 244, 16);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(255, 255, 0, 0.944), 0 0 10px #f2ff02;
+  }
+}
+
+
+#discover-paragraph{
+  color:#fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  margin-top: -10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+#salvador .text{
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+#salvador-information p{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+
+
+}
+
+#salvador-information span{
+  font-weight: bolder;
+}
+
+#flag{
+  margin: 0 auto;
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+ 
+  
+
+  
+}
+
+#flag p{
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+ 
+  
+
+}
+
+#flag span {
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  
+}
+
+#days-ago{
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+}
 
 
 

@@ -1,92 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="barra lighthouse chamber website"/>
-    <link rel="icon" href="images/favicon.ico">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
-    <link rel="stylesheet" href="styles/small.css"/>
-    <link rel="stylesheet" href="styles/medium.css"/>
-    <link rel="stylesheet" href="styles/large.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Barra Lighthouse Chamber</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="barra lighthouse chamber website" />
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/medium.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Barra Lighthouse Chamber</title>
+</head>
+
+<body>
+
+  <header>
+    <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
+    <h1>Barra Lighthouse</h1>
+    <h2>Chamber of Commerce</h2>
+    <img id="facebook" src="./images/facebook.png" alt="Facebook">
+    <img id="instagram" src="./images/instagram.png" alt="Instagram">
+    <button id="menuButton">&#9776;</button>
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="Currentdate"></p>
+  </header>
+  <main id="discover">
+    <h3>Meet Salvador</h3>
+    <p id="discover-paragraph">Go to Salvador and look what makes it an amazing place</p>
+    <div id="salvador-information">
+      <p>Salvador is the capital and largest city of Bahia. The municipality was founded in 1549 as the first capital of
+        Brazil. Its history is linked to the arrival of the Portuguese on the Brazilian coast, more specifically in the
+        region of Baía de Todos os Santos, considered strategically suitable for the installation of a capital. After
+        several historical events, the capital of Brazil was transferred to Rio de Janeiro and, more recently, to
+        Brasília. However, Salvador remains one of the main urban centers in Brazil. The city is one of the most
+        populous and economically developed in the country, with an emphasis on the tertiary sector of the local
+        economy, notably tourism.</p>
+      <p>The main attractions of the old capital are its strong culture and its happy, hospitable, musical, mystical,
+        and creative people. It has a tropical climate with clear and sunny days in all seasons of the year and many
+        quiet beaches with coconut trees, safe waters, and very pleasant temperatures, such as the beaches of Porto da
+        Barra, Farol da Barra, Piatã, Itapuã, Stella Maris, Aleluia and many others. City sung in prose and verse around
+        the world, it is the birthplace of great poets and artists. There are lots of music, ginga, dengo, rhythms, and
+        vibrant celebrations on every street corner, square, and street corner of the city. There are numerous parties
+        and Carnival in Salvador, which is recognized as one of the largest and best in the world and, by far, the
+        city's largest public event and cultural economy. The Historic Center of Salvador, also called Pelourinho, is
+        the largest colonial architectural complex in Brazil, recognized as a World Heritage Site by UNESCO. There are,
+        in addition to historic churches and colonial townhouses, theaters, museums, cultural centers, shops,
+        restaurants, bars, and an infinity of other attractions. There are countless motivations for this unique city of
+        Salvador in all segments of travel, events, and business tourism. Salvador is a city that cannot be described:
+        it is experienced. Salvador is a feast for the senses! Elevador Lacerda: an elevator that connects two cities;
+        Trio Elétrico: a moving stage; Sea, popcorn, and leaf baths; Rua do Tira Chapéu; Cabeça street; Cova da Onça
+        street; Rua da Baixa do Sapateiro; Ladeira da Preguiça; and Ladeira da Água Brusca.</p>
+      <p><span>Total area:</span> 692,818 square kilometers.</p>
+      <p><span>Total population:</span> 2,886,698 inhabitants.</p>
+      <div id="flag"><img src="images/400x300.png" data-src="images/laptop-screen.png" alt="image">
+        <p class="number-of-visits">Number of visits: <span id="number"></span></p>
+        <p class="number-of-days">Last visit: <span id="number-days"></span> <span id="days-ago">days ago.</span></p></div>
  
-  <body>
-
-    <header>
-        <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
-        <h1>Barra Lighthouse</h1>
-        <h2>Chamber of Commerce</h2>
-        <img id="facebook" src="./images/facebook.png" alt="Facebook">
-        <img id="instagram" src="./images/instagram.png" alt="Instagram">
-        <button id="menuButton">&#9776;</button>
-        <nav id="primaryNav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-        </nav>
-        <p class="Currentdate"></p>
-    </header> 
-    <main id="discover">
-        <h3>Meet Salvador</h3>
-        <div class="images"><img src="images/400x300.png" data-src="images/pelourinho.jpg" alt="image" >
-        <p>Pelourinho</p></div>
-        <div class="images"><img src="images/400x300.png" data-src="images/praia-itapua.jpg" alt="image" >
-        <p>Itapuã Beach</p></div>
-        <div class="images"><img src="images/400x300.png" data-src="images/salvador.jpg" alt="image">
-        <p>Salvador</p></div>
-        <div class="images"><img src="images/400x300.png" data-src="images/farol-da-barra.jpg" alt="image">
-        <p>Barra Lighthouse</p></div>
-        <div class="images"><img src="images/400x300.png" data-src="images/elevador-lacerda.jpg" alt="image">
-        <p>Lacerda Elevator</p></div>
-    </main>
-
-  
-
-
-
-    <footer>
-      <img src="./images/barra_lighthouse.webp" alt="logo"/>
       
-      <div class="address">
-        <h4>Barra Lighthouse Chamber of Commerce</h4>
-        <p>St. Largo do Farol da Barra, Salvador</p>
-        
-      </div>
-      <div class="contact">
-        <p>info@barralighthouse.org</p>
-        <p>+55 71 7777-8888</p>
-        <p id="map"><a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" id="map1">📍 Location Map </a></p>
-        
-      </div>
-      
-    
-      <hr />
+    </div>  
 
-      <p>
-        ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes
-        | WDD 230 Project | Last Updated:
-        <span id="lastModified"></span>
-      </p>
-    </footer>
-    <script src="scripts/lazyload.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
-  </body>
+    <div id="salvador">
+      <div class="images"><img src="images/400x300.png" data-src="images/pelourinho.jpg" alt="image">
+        <p>Pelourinho</p>
+        <p class="text">Cobbled streets are lined with open-air caipirinha bars, Afro-Bahian souvenir shops, and squares
+          filled with musicians and dancers in historic Pelourinho. Colonial sights include the Igreja e Convento de São
+          Francisco and the Catedral Basílica de Salvador, with portuguese tiles and intricate gold-plated carvings.
+          Casa
+          do Carnaval showcases multimedia exhibits and costumes from the iconic street party.</p>
+      </div>
+      <div class="images"><img src="images/400x300.png" data-src="images/praia-itapua.jpg" alt="image">
+        <p>Itapuã Beach</p>
+        <p class="text">Itapuã Beach is a famous beach in Salvador, Bahia, Brazil. In Itapuã, a nesting point for sea
+          turtles was identified, which is why a conservation post for the TAMAR project was installed there, which
+          constitutes another attraction for this beach.</p>
+      </div>
+      <div class="images"><img src="images/400x300.png" data-src="images/salvador.jpg" alt="image">
+        <p>Salvador</p>
+        <p class="text">Salvador is the capital city of the state of Bahia. It is recognized throughout the country and
+          internationally for its cuisine, music, and architecture. Commerce in Salvador is very strong, especially
+          tourism in commemorative times. The landscape and the beaches, for example, are fascinating.</p>
+      </div>
+      <div class="images"><img src="images/400x300.png" data-src="images/farol-da-barra.jpg" alt="image">
+        <p>Barra Lighthouse</p>
+        <p class="text">The Barra Lighthouse, or Santo Antônio Lighthouse, is located on the former point of Padrão,
+          currently Ponta de Santo Antônio, in Salvador, on the coast of the state of Bahia, in Brazil. It was the
+          second
+          nautical signaling system to come into operation in Brazil, after the lighthouse of the former Palácio de
+          Friburgo in Recife.</p>
+      </div>
+      <div class="images"><img src="images/400x300.png" data-src="images/elevador-lacerda.jpg" alt="image">
+        <p>Lacerda Elevator</p>
+        <p class="text">The Lacerda Elevator is a public transport system in the city of Salvador. It is the first urban
+          elevator in the world. On December 8, 1873, when the first tower opened, it was the tallest elevator in the
+          world at 63 meters.</p>
+      </div>     
+    </div>
+ 
+  </main>
+
+
+
+
+
+  <footer>
+    <img src="./images/barra_lighthouse.webp" alt="logo" />
+
+    <div class="address">
+      <h4>Barra Lighthouse Chamber of Commerce</h4>
+      <p>St. Largo do Farol da Barra, Salvador</p>
+
+    </div>
+    <div class="contact">
+      <p>info@barralighthouse.org</p>
+      <p>+55 71 7777-8888</p>
+      <p id="map"><a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" id="map1">📍 Location Map </a></p>
+
+    </div>
+
+
+    <hr />
+
+    <p>
+      ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes
+      | WDD 230 Project | Last Updated:
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+  <script src="scripts/lazyload.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/localstorage.js"></script>
+</body>
+
 </html>
-
-
