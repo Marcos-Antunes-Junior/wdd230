@@ -32,6 +32,7 @@ td {
 table {
   margin-top: 120px;
   width: 100%;
+  
 }
 
 tbody tr:nth-child(even) {
@@ -86,6 +87,13 @@ tbody th {
 
 tbody {
   background-color: #ffffff;
+}
+
+main p{
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
 }
 
 footer {
