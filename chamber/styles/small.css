@@ -234,18 +234,38 @@ section#hero h4 {
   color:rgb(213, 244, 16);
 }
 
-.join-btn {
+.join-btn{
   border: none;
   border-radius: 10px;
   text-align: center;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #fff;
   background-color: #003a63;
   width: 90%;
   height: 20%;
   cursor: pointer;
+ 
   
+}
+
+.join-btn a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.join-btn a:hover{
+  color: rgb(213, 244, 16);
+}
+
+.join-bt a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.join-bt a:hover{
+  color: rgb(213, 244, 16);
 }
 
 .join-btn h4{
@@ -254,7 +274,7 @@ section#hero h4 {
 
 .join-btn:hover,
 .join-btn:active {
-  color: rgb(213, 244, 16);
+ 
  
   border: none;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
