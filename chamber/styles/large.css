@@ -1,280 +1,235 @@
 @media only screen and (min-width: 64rem) {
-
-    
   header #logo {
-      grid-column: 1 / 3;
-      width: 80%;
+    grid-column: 1 / 3;
+    width: 80%;
   }
 
   header h1 {
-      grid-column: 3 / 6;
-      grid-row: 1 / 2;
-      margin: 0;
-      padding-top: .5rem;
-      align-self: center;
-      font-family: "Fira Sans", sans-serif;
-      margin-top: 32px;
-
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    margin: 0;
+    padding-top: 0.5rem;
+    align-self: center;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 32px;
   }
-  
-  header h2 {
-      grid-column: 3 / 6;
-      grid-row: 2 / 3;
-      margin: 0;
-      font-size: medium;
-      font-family: "Fira Sans", sans-serif;
-      margin-top: -20px;
-      margin-left: 1px;
 
+  header h2 {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+    margin: 0;
+    font-size: medium;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: -20px;
+    margin-left: 1px;
   }
 
   header nav {
-      grid-column: 6 / 14;
-      grid-row: 1 / 3;
-      align-self: center;
-      font-size: 1.1em; 
-       
+    grid-column: 6 / 14;
+    grid-row: 1 / 3;
+    align-self: center;
+    font-size: 1.1em;
   }
 
-
-
   nav.open ul {
-      grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   nav ul li a {
-      
-      font-weight: bold;
-      font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
   }
 
   header nav ul {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: .5rem;
-      justify-items: center;
-      padding: 0;
-      margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
   }
 
-
-
   nav ul li:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   nav.open ul {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      justify-items: center;
-      text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    text-align: center;
   }
 
   header #facebook {
-      grid-column: 14 / 15;
-      grid-row: 1 / 3;
-      object-fit: cover;
-      width: 50%;
-      align-self: center;
-      justify-self: end;
+    grid-column: 14 / 15;
+    grid-row: 1 / 3;
+    object-fit: cover;
+    width: 50%;
+    align-self: center;
+    justify-self: end;
   }
-  
+
   header #instagram {
-      grid-column: 15 / 16;
-      grid-row: 1 / 3;
-      object-fit: cover;
-      width: 50%;
-      align-self: center;
-      justify-self: center;
+    grid-column: 15 / 16;
+    grid-row: 1 / 3;
+    object-fit: cover;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
   }
 
   header button {
-      display: none;
-      font-family: "Fira Sans", sans-serif;
-
+    display: none;
+    font-family: "Fira Sans", sans-serif;
   }
 
   header p {
-      grid-column: 1 / -1;
-      grid-row: 3 / 4;
-      margin: .5rem;
-      padding: .5rem;
-      background-color:#003a63;
-      text-align: center;
-      color: white;
-      font-family: "Fira Sans", sans-serif;
-      font-style: italic;
-
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #003a63;
+    text-align: center;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
   }
 
   /*MAIN*/
   main {
     display: grid;
-    grid-template-columns: .3fr 1fr 2fr 1fr .3fr;
+    grid-template-columns: 0.3fr 1fr 2fr 1fr 0.3fr;
     grid-template-rows: repeat(3, auto);
-}
+  }
 
-
-
-main section#event {
+  main section#event {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-   font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 0.8em;
-}
+  }
 
-
-main section#hero {
+  main section#hero {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
     height: calc(200px * 2 + 58px);
-   font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
+  }
 
-}
-
-main section#spotlight {
+  main section#spotlight {
     grid-column: 4 / 5;
     grid-row: 1 / 4;
     display: grid;
     grid-template-columns: 1fr;
-    gap: .5rem;
+    gap: 0.5rem;
     height: calc(200px * 3 + (58px * 2));
-   font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     text-align: center;
-    color:black;
-}
+    color: black;
+  }
 
-
-main section#weather {
+  main section#weather {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-   font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     background-color: rgb(187, 170, 170);
     font-size: 0.8em;
-}
+  }
 
-
-
-main section#joinUs {
+  main section#joinUs {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-}
+  }
 
-
-
-main section#newsRelease {
+  main section#newsRelease {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
-   font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     text-align: center;
-
-    
-}
-
-main section#spotlight article:nth-child(3) {
-    display: block;
-    font-size: 0.9em;
-    height: 85%;
-   font-family: "Fira Sans", sans-serif;
-
-
-
-}
-
-
-main section#spotlight article:nth-child(2) {
-    display: block;
-    font-size: 0.9em;
-    height: 85%;
-    color:black;
-   font-family: "Fira Sans", sans-serif;
-
-
-
-}
-
-
-main section#spotlight article:nth-child(1) {
-    display: block;
-    font-size: 0.9em;
-    height: 85%;
-   font-family: "Fira Sans", sans-serif;
-    color: black;
-
-
-}
-
-.join-bt, .hero {
-    margin-top: 200px;
-}
-
-#newsRelease h4 {
-  margin-top: 8px;
-}
-
-
-main section#hero {
-    background-image: url('../images/wdd230-org-large.jpg');
-  
   }
 
-#discover{
+  main section#spotlight article:nth-child(3) {
+    display: block;
+    font-size: 0.9em;
+    height: 85%;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  main section#spotlight article:nth-child(2) {
+    display: block;
+    font-size: 0.9em;
+    height: 85%;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  main section#spotlight article:nth-child(1) {
+    display: block;
+    font-size: 0.9em;
+    height: 85%;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+  }
+
+  .join-bt,
+  .hero {
+    margin-top: 200px;
+  }
+
+  #newsRelease h4 {
+    margin-top: 8px;
+  }
+
+  main section#hero {
+    background-image: url("../images/wdd230-org-large.jpg");
+  }
+
+  #discover {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
   }
 
-div img {
+  div img {
     filter: blur(0em);
     transition: filter 0.5s;
-    
-    
-    
   }
 
-  .images{
+  .images {
     width: 70%;
-    
-   
   }
 
-  .images:hover{
+  .images:hover {
     box-shadow: 10px 10px 40px black;
 
-    transition: .5s;
+    transition: 0.5s;
   }
 
-  #salvador{
+  #salvador {
     grid-column: 1;
     grid-row: 3;
   }
 
-  #discover h3{
-    grid-column:1/3;
+  #discover h3 {
+    grid-column: 1/3;
     text-align: center;
   }
-  
-
 
   #discover-paragraph {
     grid-column: 1/3;
     text-align: center;
   }
 
-  #salvador-information{
+  #salvador-information {
     grid-column: 2;
-    
   }
-  
-  #salvador-information p{
+
+  #salvador-information p {
     font-family: "Fira Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-  
-  
   }
 
-  #flag{
+  #flag {
     margin-top: 150px;
     animation: MoveUpDown 3s linear infinite;
     position: relative;
@@ -283,7 +238,8 @@ div img {
   }
 
   @keyframes MoveUpDown {
-    0%, 100% {
+    0%,
+    100% {
       bottom: 0;
     }
     50% {
@@ -291,36 +247,25 @@ div img {
     }
   }
 
-  #flag p{
-   
+  #flag p {
     font-size: 1rem;
-
-    
-  
   }
-  
+
   #flag span {
- font-size: 1rem;
-    
+    font-size: 1rem;
   }
 
-#form{
-  display: grid;
-  grid-template-columns: 1fr;
-}
-  
+  #form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
   /* --- FORM ---*/
-  form label.sbs{
-    padding: .4rem 0;
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
+
+  #message {
+    margin-right: 300px;
+  }
 }
-
-#message {
-  margin-right: 300px;
-}
-
-}
-
-
-
-  

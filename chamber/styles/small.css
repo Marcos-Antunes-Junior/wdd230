@@ -1,13 +1,23 @@
-
-
-
 html {
-  background-image: linear-gradient(to right top, #ffffff, #eff2ff, #d7e8fe, #b6e0fb, #90d9f2, #71cef2, #4cc2f2, #00b6f3, #009eff, #0080ff, #005aff, #3b00ff);;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #eff2ff,
+    #d7e8fe,
+    #b6e0fb,
+    #90d9f2,
+    #71cef2,
+    #4cc2f2,
+    #00b6f3,
+    #009eff,
+    #0080ff,
+    #005aff,
+    #3b00ff
+  );
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  
 }
 
 header {
@@ -30,7 +40,6 @@ header h1 {
   animation: glow 2s ease-in-out infinite;
   color: rgba(255, 255, 255, 0.681);
   font-size: 1.8em;
-
 }
 
 @keyframes glow {
@@ -56,7 +65,6 @@ header #facebook {
   width: 80%;
   align-self: center;
   border-radius: 40px;
-
 }
 
 header #instagram {
@@ -65,7 +73,6 @@ header #instagram {
   width: 80%;
   align-self: center;
   border-radius: 40px;
-
 }
 
 header #logo {
@@ -82,8 +89,8 @@ header button {
   background-color: #1c98ed;
   border: 2px solid #000;
   color: #fff;
-  margin: .5rem;
-  padding: .75rem;
+  margin: 0.5rem;
+  padding: 0.75rem;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -93,9 +100,9 @@ header button {
 header p {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
-  margin: .5rem;
-  padding: .5rem;
-  background-color:#003a63;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #003a63;
   text-align: center;
   color: white;
   font-family: "Fira Sans", sans-serif;
@@ -104,9 +111,7 @@ header p {
 
 header nav {
   grid-column: 1 / -1;
- 
 }
-
 
 nav ul {
   display: none;
@@ -123,20 +128,19 @@ nav.open ul {
 
 nav ul li {
   list-style-type: none;
-  padding: .5rem;
+  padding: 0.5rem;
   width: calc(100% - 1.5rem);
   text-align: center;
 }
 
 nav ul li a:hover {
-   text-decoration: underline;
-   
-   color:rgb(213, 244, 16);
-   
+  text-decoration: underline;
+
+  color: rgb(213, 244, 16);
 }
 
 nav ul li a {
-  padding: .5rem;
+  padding: 0.5rem;
   align-self: center;
   text-decoration: none;
   color: #fff;
@@ -144,19 +148,18 @@ nav ul li a {
   font-weight: bold;
 }
 
-
 /* MAIN */
 
 main {
-  margin: .5rem .5rem;
+  margin: 0.5rem 0.5rem;
   text-align: center;
   font-family: "Fira Sans", sans-serif;
 }
 
 main section {
   padding: 1rem;
-  margin: .75rem 0;
-  background-image: linear-gradient(to left, #0461A3 , #71BCF1);
+  margin: 0.75rem 0;
+  background-image: linear-gradient(to left, #0461a3, #71bcf1);
   color: var(--light-text-color);
   height: 200px;
 }
@@ -164,49 +167,36 @@ main section {
 main section article {
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(to left, #0461A3 , #71BCF1);
+  background-image: linear-gradient(to left, #0461a3, #71bcf1);
   height: calc(100px - 2rem);
-
 }
-
-
 
 #newsRelease h4 {
   animation: glow 1s ease-in-out infinite;
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-top: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0;
 }
 
-#newsRelease{
+#newsRelease {
   box-shadow: 2px 2px 10px black;
 }
 
-main section#newsRelease p{
+main section#newsRelease p {
   text-align: center;
   font-size: 1rem;
 }
 
-
-
 main section#hero {
-  background-image: url('../images/wdd230-org-small.jpg');
+  background-image: url("../images/wdd230-org-small.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #000;
   text-shadow: 2px 2px white;
   border-radius: 10px;
-  
-  
 }
-
-
-
-
-
-
 
 main section#joinUs {
   display: none;
@@ -220,21 +210,19 @@ section#hero h4 {
   margin-top: 7px;
   text-shadow: 0 3px 3px rgba(85, 44, 44, 0.5);
   box-shadow: 0 3px 3px rgba(212, 200, 200, 0.11);
-
 }
 section#hero h4 {
   text-align: center;
   font-size: 1.1em;
   margin-top: 13px;
-  
 }
 
-#menuButton:hover{
+#menuButton:hover {
   background-color: rgb(0, 0, 0, 50%);
-  color:rgb(213, 244, 16);
+  color: rgb(213, 244, 16);
 }
 
-.join-btn{
+.join-btn {
   border: none;
   border-radius: 10px;
   text-align: center;
@@ -242,46 +230,30 @@ section#hero h4 {
   width: 90%;
   height: 20%;
   cursor: pointer;
- 
-  
-}
-
-.join-btn a{
   text-decoration: none;
   color: #fff;
   font-size: 0.9rem;
   font-weight: bold;
 }
 
-.join-btn a:hover{
+.join-bt a:hover {
   color: rgb(213, 244, 16);
 }
 
-.join-bt a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: bold;
-}
-
-.join-bt a:hover{
-  color: rgb(213, 244, 16);
-}
-
-.join-btn h4{
+.join-btn h4 {
   margin-top: 5%;
 }
 
 .join-btn:hover,
 .join-btn:active {
- 
- 
+  color: rgb(213, 244, 16);
   border: none;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.join-bt, .hero {
+.join-bt,
+.hero {
   border: none;
   border-radius: 10px;
   text-align: center;
@@ -299,34 +271,27 @@ section#hero h4 {
 .join-bt:hover,
 .join-bt:active {
   color: rgb(213, 244, 16);
-  
+
   border: none;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.join-bt h4{
+.join-bt h4 {
   margin-top: 6%;
-
 }
 
 section#event h4 {
   margin-top: 0px;
   font-size: 1.1rem;
-
 }
 
 main section#event {
-text-align: center;
-box-shadow: 2px 2px 10px black;
-
-
-
+  text-align: center;
+  box-shadow: 2px 2px 10px black;
 }
 
-
-
 main section#weather {
-  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -334,14 +299,9 @@ main section#weather {
   box-shadow: 2px 2px 10px black;
 }
 
-
-
 main section#spotlight article:nth-child(3) {
   display: none;
   font-family: "Fira Sans", sans-serif;
-
-  
-
 }
 
 main section#spotlight article:nth-child(2) {
@@ -349,65 +309,54 @@ main section#spotlight article:nth-child(2) {
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   height: 85%;
-  
-
-
 }
 
 main section#spotlight article:nth-child(1) {
-color: #000;
-text-align: center;
-font-family: "Fira Sans", sans-serif;
-height: 85%;
-
-
-
-
+  color: #000;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  height: 85%;
 }
 
-main section#spotlight span{
+main section#spotlight span {
   color: #fff;
   font-style: italic;
 }
 
 main section#spotlight {
   display: grid;
-  gap: .5rem;
+  gap: 0.5rem;
   grid-row: 4 / 4;
   height: 82%;
-  color:black;
+  color: black;
   font-family: "Fira Sans", sans-serif;
   box-shadow: 2px 2px 10px black;
   font-weight: bold;
-
-
 }
 
-#event img{
+#event img {
   width: 20%;
 }
 
-#event p{
+#event p {
   font-family: "Fira Sans", sans-serif;
   color: #fff;
   font-size: 1rem;
 }
 
-
-
-main section#weather h3{
+main section#weather h3 {
   grid-column: 2/3;
   margin-top: -5%;
 }
 
-main section#weather img{
+main section#weather img {
   width: 60%;
   grid-column: 1/2;
   margin-left: 50%;
   margin-top: -20%;
 }
 
-#temperature{
+#temperature {
   grid-column: 3/4;
   color: #fff;
   font-size: 1.8rem;
@@ -415,129 +364,110 @@ main section#weather img{
   font-weight: bolder;
   margin-right: 50%;
   margin-top: 0;
-
 }
 
-main section#weather hr{
+main section#weather hr {
   width: 100%;
   grid-column: 1/4;
   grid-row: 3;
   margin-top: 10%;
-  
 }
 
 .status {
-grid-column: 1/4;
-grid-row: 3;
-margin-top: 0;
-color: #fff;
-font-size: 1rem;
-font-family: "Fira Sans", sans-serif;
-font-weight: bolder;
-font-style: italic;
+  grid-column: 1/4;
+  grid-row: 3;
+  margin-top: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
 }
 
-#wind-speed{
+#wind-speed {
   grid-column: 1/3;
   color: #000;
   font-size: 1rem;
   font-family: "Fira Sans", sans-serif;
-   font-weight: bolder;
-   font-style: italic;
+  font-weight: bolder;
+  font-style: italic;
 }
 
-#wind-chill{
-  grid-column:3/4;
+#wind-chill {
+  grid-column: 3/4;
   color: #000;
-font-size: 1rem;
-font-family: "Fira Sans", sans-serif;
-font-weight: bolder;
-font-style: italic;
+  font-size: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
 }
 
-.wind-speed, .wind-chill{
+.wind-speed,
+.wind-chill {
   color: #fff;
 }
 
-#wind-speed span{
-   color: #fff;
+#wind-speed span {
+  color: #fff;
 }
-
 
 /*FOOTER*/
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: #000000d4;
+  text-align: center;
+  font-family: "Play", sans-serif;
+  color: #ffffff;
+  padding: 0 0.5rem;
+  font-family: "Fira Sans", sans-serif;
+}
 
+footer hr {
+  width: 100%;
+}
 
+footer img {
+  width: 40%;
+  border-radius: 100%;
+}
 
-  footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr;
-    justify-items: center;
-    align-items: center;
-    background-color: #000000d4;
-    text-align: center;
-    font-family: "Play", sans-serif;
-    color: #ffffff;
-    padding: 0 .5rem;
-    font-family: "Fira Sans", sans-serif;
-   
-
-
-    
-  }
-
-  footer hr{
-    width: 100%;
-  }
-
-
-  footer img{
-    width: 40%;
-    border-radius: 100%;
-    
-  }
-  
-  #map1 {
-    text-decoration: none;
-    color: #fff;
-    
-    
-  }
-
+#map1 {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* --- DISCOVER PAGE --- */
 
-#discover{
+#discover {
   display: grid;
   grid-template-columns: 1fr;
-
 }
 
-.images{
+.images {
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px solid #000;
-  background-image: linear-gradient(to left, #0461A3 , #71BCF1);
+  background-image: linear-gradient(to left, #0461a3, #71bcf1);
   box-shadow: 2px 2px 10px black;
- 
 }
 
 div img[data-src] {
   filter: blur(0.2em);
-  
 }
 
 div img {
   filter: blur(0em);
   transition: filter 0.5s;
   width: 100%;
-  
-  
 }
 
-.images p{
+.images p {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.5rem;
   font-style: italic;
@@ -545,15 +475,12 @@ div img {
   color: #fff;
 }
 
-
-#discover h3{
-  color:#fff;
+#discover h3 {
+  color: #fff;
   font-family: "Fira Sans", sans-serif;
   font-size: 2rem;
   animation: glow 2s ease-in-out infinite;
-
 }
-
 
 @keyframes glow {
   from {
@@ -564,9 +491,8 @@ div img {
   }
 }
 
-
-#discover-paragraph{
-  color:#000;
+#discover-paragraph {
+  color: #000;
   font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
   margin-top: -10px;
@@ -575,45 +501,35 @@ div img {
   text-shadow: 2px 2px 5px yellow;
 }
 
-
-#salvador .text{
+#salvador .text {
   color: #000;
   font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
   font-weight: lighter;
 }
 
-#salvador-information p{
+#salvador-information p {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-
-
 }
 
-#salvador-information span{
+#salvador-information span {
   font-weight: bolder;
 }
 
-#flag{
+#flag {
   margin: 0 auto;
   width: 30%;
   margin-top: 40px;
   margin-bottom: 20px;
- 
-  
-
-  
 }
 
-#flag p{
+#flag p {
   color: #000;
   font-family: "Fira Sans", sans-serif;
   font-size: 0.8rem;
   text-align: center;
- 
-  
-
 }
 
 #flag span {
@@ -621,91 +537,82 @@ div img {
   font-family: "Fira Sans", sans-serif;
   text-align: center;
   font-weight: bolder;
-  
 }
 
-#days-ago{
+#days-ago {
   color: #000;
   font-family: "Fira Sans", sans-serif;
 }
 
 /* --- THANK YOU PAGE --- */
 
-#thankyou{
+#thankyou {
   padding: 0 2%;
   min-height: 20rem;
 }
 
-#thankyou h3{
-  text-align:start;
+#thankyou h3 {
+  text-align: start;
   font-family: "Fira Sans", sans-serif;
   font-size: 2rem;
-  font-weight:bolder;
+  font-weight: bolder;
   text-shadow: 2px 2px 5px yellow;
 }
 
-#thankyou p{
-  text-align:start;
+#thankyou p {
+  text-align: start;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight:500;
+  font-weight: 500;
   font-style: italic;
- 
-  
-  
 }
 
 /* --- FORM --- */
 
-
-
-#form h3{
-  text-align:start;
+#form h3 {
+  text-align: start;
   font-family: "Fira Sans", sans-serif;
   font-size: 2rem;
-  font-weight:bolder;
+  font-weight: bolder;
   text-shadow: 2px 2px 5px yellow;
   margin-left: 10px;
 }
-
 
 form fieldset {
   margin: 2rem 0;
   border: 1px solid #000;
   border-radius: 10px;
-  padding: .5rem 2%;
-  background-image: linear-gradient(to left, #0461A3 , #71BCF1);
-
+  padding: 0.5rem 2%;
+  background-image: linear-gradient(to left, #0461a3, #71bcf1);
 }
 
 form legend {
   color: #000;
   text-align: left;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-family: "Fira Sans", sans-serif;
   font-weight: bolder;
 }
 
-
-
-form label.top, form div {
+form label.top,
+form div {
   display: block;
   text-align: left;
   padding-top: 1rem;
   color: rgb(173, 14, 14);
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-family: "Fira Sans", sans-serif;
   font-weight: bolder;
-  
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
-  padding: .75rem;
+  padding: 0.75rem;
   color: #555;
   width: 100%;
   max-width: 20rem;
@@ -716,7 +623,7 @@ form label.top input, form label.top select {
 form label.sbs {
   display: block;
   margin: 2px;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: #000000d3;
   text-align: left;
   font-family: "Fira Sans", sans-serif;
@@ -728,7 +635,7 @@ form input.submitBtn {
   background-color: #003a63;
   color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 0 0 2rem;
   float: left;
   width: 96%;
@@ -736,13 +643,13 @@ form input.submitBtn {
   font-family: "Fira Sans", sans-serif;
   align-items: start;
   cursor: pointer;
-  
 }
 
-form input.submitBtn:hover{
+form input.submitBtn:hover {
   color: rgb(213, 244, 16);
   border: none;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 form label.top input:required {
@@ -751,26 +658,23 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
-
 }
 
-#form{
+#form {
   display: grid;
   grid-template-columns: 1fr;
 }
 
 textarea {
-    resize: none;
-
-
+  resize: none;
 }
 
-#counter{
+#counter {
   text-align: left;
-  color:#000;
+  color: #000;
 }
 
-#message{
+#message {
   text-align: left;
   font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
@@ -780,11 +684,7 @@ textarea {
   margin-right: 50px;
   color: white;
   animation: glow 2s ease-in-out infinite;
-  
 }
-
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -792,9 +692,3 @@ textarea {
   display: table;
   clear: both;
 }
-
-
-
-
-
-
