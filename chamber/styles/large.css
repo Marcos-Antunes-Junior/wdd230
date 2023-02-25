@@ -1,4 +1,4 @@
-@media (min-width: 60em) {
+@media only screen and (min-width: 64rem) {
 
     
   header #logo {
@@ -303,6 +303,21 @@ div img {
  font-size: 1rem;
     
   }
+
+#form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+  
+
+  /* --- FORM ---*/
+  form label.sbs{
+    padding: .4rem 0;
+}
+
+#message {
+  margin-right: 300px;
+}
 
 }
 

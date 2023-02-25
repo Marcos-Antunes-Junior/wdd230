@@ -1,4 +1,4 @@
-@media (min-width: 38em) {
+@media only screen and (min-width: 35rem) {
 
   /* HEADER */
 
@@ -248,4 +248,49 @@ footer img{
 
     margin-top: 10px;
 }
+
+/* --- THANK YOU PAGE --- */
+
+#thankyou{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#thankyou h3{
+  text-align:start;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2rem;
+  font-weight:bolder;
+  text-shadow: 2px 2px 5px yellow;
+}
+
+#thankyou p{
+  text-align:start;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight:500;
+  font-style: italic;
+  margin-top: -5%;
+  
+}
+
+#form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+form{
+  width: 80%;
+}
+
+textarea {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+#message {
+  margin-right: 100px;
+}
+
 }

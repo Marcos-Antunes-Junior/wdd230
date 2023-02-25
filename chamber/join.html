@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="barra lighthouse chamber website" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Barra Lighthouse Chamber | Join</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo" />
+      <h1>Barra Lighthouse</h1>
+      <h2>Chamber of Commerce</h2>
+      <img id="facebook" src="./images/facebook.png" alt="Facebook" />
+      <img id="instagram" src="./images/instagram.png" alt="Instagram" />
+      <button id="menuButton">&#9776;</button>
+      <nav id="primaryNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="Currentdate"></p>
+    </header>
+    <main id="form">
+      <h3>Join The Chamber</h3>
+      <form name="form_main" method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name*<input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Business Position<input
+              type="text"
+              name="bposition"
+              pattern="[A-Za-z0-9-]{7,}"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              name="email"
+              placeholder="example@example.com"
+              required
+          /></label>
+          <label class="top"
+            >Phone*<input
+              type="tel"
+              name="phone"
+              placeholder="0711938384949"
+              required
+          /></label>
+          <label class="top"
+            >Business Name*<input type="text" name="bname" required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership</legend>
+          <div id="message"></div>
+          <div>Membership Level</div>
+          <label class="sbs"
+            ><input
+              type="radio"
+              name="membership"
+              value="np"
+              onclick="display()"
+            />
+            NP Membership</label
+          >
+          <label class="sbs"
+            ><input
+              type="radio"
+              name="membership"
+              value="bronze"
+              onclick="display()"
+            />
+            Bronze Membership</label
+          >
+          <label class="sbs"
+            ><input
+              type="radio"
+              name="membership"
+              value="silver"
+              onclick="display()"
+            />
+            Silver Membership</label
+          >
+          <label class="sbs"
+            ><input
+              type="radio"
+              name="membership"
+              value="gold"
+              onclick="display()"
+            />
+            Gold Membership</label
+          >
+        </fieldset>
+        <fieldset>
+          <label class="top" for="text"
+            >Business Description<textarea
+              name="text"
+              id="text"
+              rows="4"
+              cols="50"
+              maxlength="300"
+              oninput="countText()"
+            ></textarea>
+          </label>
+
+          <div id="counter">
+            <span id="character">0</span><span> / 300</span>
+          </div>
+
+          <input type="hidden" class="Currentdate" name="date" />
+        </fieldset>
+        <input type="submit" value="Send" class="submitBtn" />
+      </form>
+    </main>
+    <footer>
+      <img src="./images/barra_lighthouse.webp" alt="logo" />
+
+      <div class="address">
+        <h4>Barra Lighthouse Chamber of Commerce</h4>
+        <p>St. Largo do Farol da Barra, Salvador</p>
+      </div>
+      <div class="contact">
+        <p>info@barralighthouse.org</p>
+        <p>+55 71 7777-8888</p>
+        <p id="map">
+          <a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" id="map1"
+            >📍 Location Map
+          </a>
+        </p>
+      </div>
+      <hr />
+      <p>
+        ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes | WDD
+        230 Project | Last Updated:
+        <span id="lastModified"></span>
+      </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/countCharacters.js"></script>
+  </body>
+</html>
