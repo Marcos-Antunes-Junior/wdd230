@@ -247,4 +247,16 @@
   #message {
     margin-right: 100px;
   }
+
+/* --- DIRECTORY --- */
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Fira Sans", sans-serif;
+ 
+
+  
+}
+
+
 }

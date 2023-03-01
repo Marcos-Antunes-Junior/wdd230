@@ -1,0 +1,78 @@
+{
+"companies": [
+    {
+        "name": "English Like a Boss",
+        "phone": "+55 71 4321-8765",
+        "address": "Street Alameda dos Carvalhos, 71, Salvador",
+        "email": "contact@englishlikeaboss.com",
+        "imageurl": "./images/united-states.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Thankful Transport",
+        "phone": "+55 71 5678-1234",
+        "address": "Street Graciliano Ramos, 1930, Salvador",
+        "email": "contact@thankfultransport.com",
+        "imageurl": "./images/truck.png",
+        "membership": "silver"
+    },
+    {
+        "name": "IT Services",
+        "phone": "+55 71 1234-5678",
+        "address": "Street Vicente Ortiz, 4001, Salvador",
+        "email": "contact@itservices.com",
+        "imageurl": "./images/technical-support.png",
+        "membership": "bronze"
+
+    },
+    {
+        "name": "Carrefour",
+        "phone": "+55 71 1930-0582",
+        "address": "Av. João Pedro, 54, Salvador",
+        "email": "contact@carrefour.com",
+        "imageurl": "./images/carrefour.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Nike",
+        "phone": "+55 71 9039-0240",
+        "address": "Street Camargo Neto, 32, Salvador",
+        "email": "contact@nike.com",
+        "imageurl": "./images/nike.png",
+        "membership": "silver"
+    },
+    {
+        "name": "Santander",
+        "phone": "+55 71 0989-9098",
+        "address": "Stree Padre José Joaquim, 567, Salvador",
+        "email": "contact@santander.com",
+        "imageurl": "./images/santander.png",
+        "membership": "bronze"
+    },
+    {
+        "name": "Mapfre",
+        "phone": "+55 71 3475-9876",
+        "address": "Street Tucura, 34, Salvador",
+        "email": "contact@mapfre.com",
+        "imageurl": "./images/mapfre.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Samsung",
+        "phone": "+55 71 6677-8899",
+        "address": "Av. Salvador, 74, Salvador",
+        "email": "contact@samsung.com",
+        "imageurl": "./images/samsung.png",
+        "membership": "gold"
+    },
+    {
+        "name": "C&A",
+        "phone": "+55 71 7770-0777",
+        "address": "Street Ulha Cintra, 200, Salvador",
+        "email": "contact@ca.com",
+        "imageurl": "./images/ca.png",
+        "membership": "bronze"
+    }
+
+]
+}
