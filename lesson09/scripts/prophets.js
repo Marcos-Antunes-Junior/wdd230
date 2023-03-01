@@ -10,14 +10,14 @@ year.textContent = `${new Date().getFullYear()}`;
 const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 
 
-async function getProphetData(url) {
+async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
     //console.table(data.prophets);
     displayProphets(data.prophets);
   }
   
-  getProphetData(url);
+  getProphetData();
 
 
 const displayProphets = (prophets) => {
