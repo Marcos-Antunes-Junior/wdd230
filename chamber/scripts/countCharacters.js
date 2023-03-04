@@ -5,7 +5,11 @@ function countText() {
     document.querySelector('#character').innerText = text.length;
   }
 
-//This function will select the radio and check if it is marked (checked).
+
+
+
+  
+/*//This function will select the radio and check if it is marked (checked).
 //Then, it will display the benefits according to the membership level.
 const article = document.createElement('article');
 const price = document.createElement('h4');
@@ -16,7 +20,7 @@ const benefit4 = document.createElement('h4');
 const messageID = document.querySelector('#message');
 
 
-  function display(){
+function display(){
     let checkRadio = document.querySelector('input[name="membership"]:checked');
 
     if(checkRadio != null & checkRadio.value === "np"){
@@ -77,4 +81,4 @@ const messageID = document.querySelector('#message');
   
    
 
-  }
+  } */

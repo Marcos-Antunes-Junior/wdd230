@@ -248,6 +248,13 @@
     margin-right: 100px;
   }
 
+  #benefits{
+    text-align: left;
+    margin: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.3rem;
+  }
+
 /* --- DIRECTORY --- */
 .cards{
   display: grid;
