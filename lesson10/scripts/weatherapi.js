@@ -4,11 +4,14 @@ lastModified.textContent = document.lastModified;
 year.textContent = `${new Date().getFullYear()}`;
 
 const currentTemp = document.querySelector('#current-temp');
+
 const img = document.createElement('img');
 const figure = document.querySelector('figure');
 figure.appendChild(img);
 const figcaption = document.createElement('figcaption');
 figure.appendChild(figcaption);
+
+
 const captionDesc = document.querySelector('figcaption');
 
 const cityName = "Fairbanks";
@@ -40,8 +43,10 @@ function displayResults(weatherData){
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
+
     img.setAttribute('src', iconsrc);
     img.setAttribute('alt', desc);
+
     captionDesc.textContent = desc.toUpperCase();
     
 }
