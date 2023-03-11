@@ -10,8 +10,6 @@ const figure = document.querySelector('figure');
 figure.appendChild(img);
 const figcaption = document.createElement('figcaption');
 figure.appendChild(figcaption);
-
-
 const captionDesc = document.querySelector('figcaption');
 
 const cityName = "Fairbanks";
