@@ -3,8 +3,8 @@ const url = "./data.json"
 async function getCompaniesData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.companies);
     displayCompanies(data.companies);
+  
   }
   
   getCompaniesData(url);
@@ -23,14 +23,14 @@ async function getCompaniesData(url) {
         let phone = document.createElement('h4');
         let address = document.createElement('h4');
         let email = document.createElement('h4');
- 
+        
 
 
      
      name.textContent = company.name;
-     phone.textContent = company.phone;
-     address.textContent = company.address;
-     email.textContent = company.email;
+     phone.textContent = `📞${company.phone}`;
+     address.textContent = `📍${company.address}`;
+     email.textContent = `📧${company.email}`;
 
 
       portrait.setAttribute('src', company.imageurl);
@@ -66,3 +66,5 @@ async function getCompaniesData(url) {
 
     }) 
   } 
+
+

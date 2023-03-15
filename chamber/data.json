@@ -4,7 +4,7 @@
         "name": "English Like a Boss",
         "phone": "+55 71 4321-8765",
         "address": "Street Alameda dos Carvalhos, 71, Salvador",
-        "email": "contact@englishlikeaboss.com",
+        "email": "contact@english.com",
         "imageurl": "./images/united-states.png",
         "membership": "gold"
     },
@@ -12,7 +12,7 @@
         "name": "Thankful Transport",
         "phone": "+55 71 5678-1234",
         "address": "Street Graciliano Ramos, 1930, Salvador",
-        "email": "contact@thankfultransport.com",
+        "email": "contact@thankful.com",
         "imageurl": "./images/truck.png",
         "membership": "silver"
     },
