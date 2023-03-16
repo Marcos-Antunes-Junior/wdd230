@@ -318,23 +318,5 @@
   
 }
 
-.list .directory-section {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 0;
-
- 
-}
-
-.list div h2 {
-  font-size: 1rem;
-  font-family: "Fira Sans", sans-serif;
-}
-
-.list div h4{
-  font-size: 1rem;
-  font-family: "Fira Sans", sans-serif;
-}
-
 
 }

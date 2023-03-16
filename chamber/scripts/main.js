@@ -52,6 +52,13 @@ p.innerHTML = weekMessage;
  p.innerHTML = weekAnotherMessage;
 }
 
+document.getElementById("facebook").onclick = function () {
+    window.location.href = "https://wwww.facebook.com";
+};
+
+document.getElementById("instagram").onclick = function () {
+    window.location.href = "https://www.instagram.com";
+};
 
 
 
