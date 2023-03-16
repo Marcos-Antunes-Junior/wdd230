@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="barra lighthouse chamber website">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Barra Lighthouse Chamber | Home</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
+        <h1>Barra Lighthouse</h1>
+        <h2>Chamber of Commerce</h2>
+        <img id="facebook" src="./images/facebook.png" alt="Facebook">
+        <img id="instagram" src="./images/instagram.png" alt="Instagram">
+        <button id="menuButton">&#9776;</button>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="Currentdate"></p>
+    </header>
+    <main id="contact">
+        <h3>Contact the Chamber</h3>
+        <div id="card">
+            <div class="container">
+            <h4>Visit Us!</h4>
+            <p>St. Largo do Farol da Barra, #78, Salvador</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7961391.766181093!2d-43.0152209!3d-13.0102875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716038285844f45%3A0x123db8b55534402e!2sFarol%20da%20Barra%20-%20Forte%20de%20Santo%20Ant%C3%B4nio%20da%20Barra!5e0!3m2!1spt-BR!2sbr!4v1678990318198!5m2!1spt-BR!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <h4>Contact</h4>
+            <div class="container">
+                <p>John Doe - CEO & President</p>
+                <p>📧info@barralighthouse.org</p>
+                <p>📞+55 71 7777-8888</p>
+            </div>
+            <div class="container">
+            <h4>Operating Hours</h4>
+            <p>Monday - Friday: 08:00a.m. to 06:00p.m.</p>
+            </div>
+        </div>
+        <form name="form_main" method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Name*<input type="text" name="name" required></label>
+                <label class="top">Organization*<input type="text" name="organization" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="0711938384949" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="example@example.com"
+                        required></label>
+                <label class="top" for="text">Business Description<textarea name="text" id="text" rows="4" cols="50"
+                        maxlength="300" oninput="countText()"></textarea>
+                </label>
+
+                <div id="counter">
+                    <span id="character">0</span><span> / 300</span>
+                </div>
+
+                <input type="hidden" class="Currentdate" name="date">
+
+            </fieldset>
+            <input type="submit" value="Send" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <img src="./images/barra_lighthouse.webp" alt="logo">
+
+        <div class="address">
+            <h4>Barra Lighthouse Chamber of Commerce</h4>
+            <p>St. Largo do Farol da Barra, Salvador</p>
+        </div>
+        <div class="contact">
+            <p>info@barralighthouse.org</p>
+            <p>+55 71 7777-8888</p>
+            <p id="map">
+                <a href="https://goo.gl/maps/GtMv76xGJpVJ2jjv5" id="map1">📍 Location Map
+                </a>
+            </p>
+            <p>Weather API by openweathermap.org</p>
+        </div>
+        <hr>
+        <p>
+            ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes | WDD
+            230 Project | Last Updated:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/onClickFunc.js"></script>
+    <script src="scripts/homeSpotlight.js"></script>
+</body>
+
+</html>

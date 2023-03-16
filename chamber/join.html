@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="barra lighthouse chamber website" />
-    <link rel="icon" href="images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="barra lighthouse chamber website">
+    <link rel="icon" href="images/favicon.ico">
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="styles/small.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Barra Lighthouse Chamber | Join</title>
   </head>
   <body>
     <header>
-      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo" />
+      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
       <h1>Barra Lighthouse</h1>
       <h2>Chamber of Commerce</h2>
-      <img id="facebook" src="./images/facebook.png" alt="Facebook" />
-      <img id="instagram" src="./images/instagram.png" alt="Instagram" />
+      <img id="facebook" src="./images/facebook.png" alt="Facebook">
+      <img id="instagram" src="./images/instagram.png" alt="Instagram">
       <button id="menuButton">&#9776;</button>
       <nav id="primaryNav">
         <ul>
@@ -39,7 +36,7 @@
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <p class="Currentdate"></p>
@@ -83,33 +80,33 @@
           <legend>Applicant Information</legend>
           <label class="top"
             >First Name*<input type="text" name="fname" required
-          /></label>
+          ></label>
           <label class="top"
             >Last Name*<input type="text" name="lname" required
-          /></label>
+          ></label>
           <label class="top"
             >Business Position<input
               type="text"
               name="bposition"
               pattern="[A-Za-z0-9-]{7,}"
-          /></label>
+          ></label>
           <label class="top"
             >Email*<input
               type="email"
               name="email"
               placeholder="example@example.com"
               required
-          /></label>
+          ></label>
           <label class="top"
             >Phone*<input
               type="tel"
               name="phone"
               placeholder="0711938384949"
               required
-          /></label>
+          ></label>
           <label class="top"
             >Business Name*<input type="text" name="bname" required
-          /></label>
+          ></label>
         </fieldset>
         <fieldset>
           <legend>Membership</legend>
@@ -121,7 +118,7 @@
               name="membership"
               value="np"
               onclick="display()"
-            />
+            >
             NP Membership</label
           >
           <label class="sbs"
@@ -130,7 +127,7 @@
               name="membership"
               value="bronze"
               onclick="display()"
-            />
+            >
             Bronze Membership</label
           >
           <label class="sbs"
@@ -139,7 +136,7 @@
               name="membership"
               value="silver"
               onclick="display()"
-            />
+            >
             Silver Membership</label
           >
           <label class="sbs"
@@ -148,7 +145,7 @@
               name="membership"
               value="gold"
               onclick="display()"
-            />
+            >
             Gold Membership</label
           >
         </fieldset>
@@ -168,13 +165,13 @@
             <span id="character">0</span><span> / 300</span>
           </div>
 
-          <input type="hidden" class="Currentdate" name="date" />
+          <input type="hidden" class="Currentdate" name="date">
         </fieldset>
-        <input type="submit" value="Send" class="submitBtn" />
+        <input type="submit" value="Send" class="submitBtn">
       </form>
     </main>
     <footer>
-      <img src="./images/barra_lighthouse.webp" alt="logo" />
+      <img src="./images/barra_lighthouse.webp" alt="logo">
 
       <div class="address">
         <h4>Barra Lighthouse Chamber of Commerce</h4>
@@ -189,7 +186,7 @@
           </a>
         </p>
       </div>
-      <hr />
+      <hr>
       <p>
         ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes | WDD
         230 Project | Last Updated:
@@ -198,5 +195,6 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/countCharacters.js"></script>
+    <script src="scripts/onClickFunc.js"></script>
   </body>
 </html>

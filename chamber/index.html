@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="barra lighthouse chamber website" />
-    <link rel="icon" href="images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="barra lighthouse chamber website">
+    <link rel="icon" href="images/favicon.ico">
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="styles/small.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
-    />
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    >
     <title>Barra Lighthouse Chamber | Home</title>
   </head>
 
   <body>
     <header>
-      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo" />
+      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
       <h1>Barra Lighthouse</h1>
       <h2>Chamber of Commerce</h2>
-      <img id="facebook" src="./images/facebook.png" alt="Facebook" />
-      <img id="instagram" src="./images/instagram.png" alt="Instagram" />
+      <img id="facebook" src="./images/facebook.png" alt="Facebook">
+      <img id="instagram" src="./images/instagram.png" alt="Instagram">
       <button id="menuButton">&#9776;</button>
       <nav id="primaryNav">
         <ul>
@@ -40,7 +39,7 @@
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <p class="Currentdate"></p>
@@ -63,7 +62,7 @@
 
         <p class="temperature"><span id="current-temp"></span>°F</p>
 
-        <hr />
+        <hr>
         <p id="status"></p>
 
         <p id="wind-speed">
@@ -91,34 +90,11 @@
         </p>
       </section>
       <section id="spotlight">
-        <article>
-          English Like a Boss
-          <p><span>"A high-quality english school"</span></p>
-          <img src="./images/united-states.png" alt="flag" width="60" />
-
-          <p>+55 71 4321-8765</p>
-          <p><span>contact@englishlikeaboss.com</span></p>
-        </article>
-
-        <article>
-          Thankful Transport
-          <p><span>"We get it there for you"</span></p>
-          <img src="./images/truck.png" alt="thankful" width="60" />
-
-          <p>+55 71 5678-1234</p>
-          <p><span>contact@thankfultransport.com</span></p>
-        </article>
-        <article>
-          IT Services
-          <p><span>"Best Qualified IT firm"</span></p>
-          <img src="./images/technical-support.png" alt="Logo" width="60" />
-          <p>+55 71 1234-5678</p>
-          <p><span>contact@itservices.com</span></p>
-        </article>
+        
       </section>
     </main>
     <footer>
-      <img src="./images/barra_lighthouse.webp" alt="logo" />
+      <img src="./images/barra_lighthouse.webp" alt="logo">
 
       <div class="address">
         <h4>Barra Lighthouse Chamber of Commerce</h4>
@@ -134,7 +110,7 @@
         </p>
         <p>Weather API by openweathermap.org</p>
       </div>
-      <hr />
+      <hr>
       <p>
         ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes | WDD
         230 Project | Last Updated:
@@ -143,5 +119,7 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/onClickFunc.js"></script>
+    <script src="scripts/homeSpotlight.js"></script>
   </body>
 </html>

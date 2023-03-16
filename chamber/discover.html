@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="barra lighthouse chamber website" />
-    <link rel="icon" href="images/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="barra lighthouse chamber website">
+    <link rel="icon" href="images/favicon.ico">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="styles/small.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    >
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Barra Lighthouse Chamber</title>
   </head>
 
   <body>
     <header>
-      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo" />
+      <img id="logo" src="./images/barra_lighthouse.webp" alt="logo">
       <h1>Barra Lighthouse</h1>
       <h2>Chamber of Commerce</h2>
-      <img id="facebook" src="./images/facebook.png" alt="Facebook" />
-      <img id="instagram" src="./images/instagram.png" alt="Instagram" />
+      <img id="facebook" src="./images/facebook.png" alt="Facebook">
+      <img id="instagram" src="./images/instagram.png" alt="Instagram">
       <button id="menuButton">&#9776;</button>
       <nav id="primaryNav">
         <ul>
@@ -40,7 +38,7 @@
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <p class="Currentdate"></p>
@@ -96,13 +94,13 @@
             src="images/400x300.png"
             data-src="images/laptop-screen.png"
             alt="image"
-          />
+          >
           <p class="number-of-visits">
             Number of visits: <span id="number"></span>
           </p>
           <p class="number-of-days">
             Last visit: <span id="number-days"></span>
-            <span id="days-ago">days ago.</span>
+            <span id="days-ago"></span>
           </p>
         </div>
       </div>
@@ -113,7 +111,7 @@
             src="images/400x300.png"
             data-src="images/pelourinho.jpg"
             alt="image"
-          />
+          >
           <p>Pelourinho</p>
           <p class="text">
             Cobbled streets are lined with open-air caipirinha bars, Afro-Bahian
@@ -130,7 +128,7 @@
             src="images/400x300.png"
             data-src="images/praia-itapua.jpg"
             alt="image"
-          />
+          >
           <p>Itapuã Beach</p>
           <p class="text">
             Itapuã Beach is a famous beach in Salvador, Bahia, Brazil. In
@@ -144,7 +142,7 @@
             src="images/400x300.png"
             data-src="images/salvador.jpg"
             alt="image"
-          />
+          >
           <p>Salvador</p>
           <p class="text">
             Salvador is the capital city of the state of Bahia. It is recognized
@@ -159,7 +157,7 @@
             src="images/400x300.png"
             data-src="images/farol-da-barra.jpg"
             alt="image"
-          />
+          >
           <p>Barra Lighthouse</p>
           <p class="text">
             The Barra Lighthouse, or Santo Antônio Lighthouse, is located on the
@@ -174,7 +172,7 @@
             src="images/400x300.png"
             data-src="images/elevador-lacerda.jpg"
             alt="image"
-          />
+          >
           <p>Lacerda Elevator</p>
           <p class="text">
             The Lacerda Elevator is a public transport system in the city of
@@ -187,7 +185,7 @@
     </main>
 
     <footer>
-      <img src="./images/barra_lighthouse.webp" alt="logo" />
+      <img src="./images/barra_lighthouse.webp" alt="logo">
 
       <div class="address">
         <h4>Barra Lighthouse Chamber of Commerce</h4>
@@ -203,7 +201,7 @@
         </p>
       </div>
 
-      <hr />
+      <hr>
 
       <p>
         ©<span id="year"></span> Barra Lighthouse Chamber | Marcos Antunes | WDD
@@ -211,9 +209,9 @@
         <span id="lastModified"></span>
       </p>
     </footer>
-    <script src="scripts/lazyload.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lazyload.js"></script>
     <script src="scripts/localstorage.js"></script>
+    <script src="scripts/onClickFunc.js"></script>
   </body>
 </html>

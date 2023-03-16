@@ -344,12 +344,20 @@
   }
 
   .list div h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: "Fira Sans", sans-serif;
   }
   
   .list div h4{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: "Fira Sans", sans-serif;
   }
+
+  /* ---- CONTACT PAGE ---- */
+
+  #contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }

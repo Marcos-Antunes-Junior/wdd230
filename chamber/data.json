@@ -4,17 +4,17 @@
         "name": "English Like a Boss",
         "phone": "+55 71 4321-8765",
         "address": "Street Alameda dos Carvalhos, 71, Salvador",
-        "email": "contact@englishlikeaboss.com",
+        "email": "contact@english.com",
         "imageurl": "./images/united-states.png",
-        "membership": "gold"
+        "membership": "bronze"
     },
     {
         "name": "Thankful Transport",
         "phone": "+55 71 5678-1234",
         "address": "Street Graciliano Ramos, 1930, Salvador",
-        "email": "contact@thankfultransport.com",
+        "email": "contact@thankful.com",
         "imageurl": "./images/truck.png",
-        "membership": "silver"
+        "membership": "bronze"
     },
     {
         "name": "IT Services",
@@ -47,7 +47,7 @@
         "address": "Stree Padre José Joaquim, 567, Salvador",
         "email": "contact@santander.com",
         "imageurl": "./images/santander.png",
-        "membership": "bronze"
+        "membership": "silver"
     },
     {
         "name": "Mapfre",
@@ -71,7 +71,7 @@
         "address": "Street Ulha Cintra, 200, Salvador",
         "email": "contact@ca.com",
         "imageurl": "./images/ca.png",
-        "membership": "bronze"
+        "membership": "gold"
     }
 
 ]

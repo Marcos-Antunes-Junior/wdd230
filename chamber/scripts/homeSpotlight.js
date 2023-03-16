@@ -30,7 +30,7 @@ function displayCompaniesInfo(company){
     div.appendChild(article);
     const companyInfo = 
     `<p>${company.name}</p>
-    <img src="${company.imageurl}" alt="Portait of ${company.name}" width="60" />
+    <img src="${company.imageurl}" alt="Portait of ${company.name}" width="75px" />
     <p>📞${company.phone}</p>
     <p>📧${company.email}</p>`;
     article.innerHTML = companyInfo;    

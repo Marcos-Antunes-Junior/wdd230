@@ -15,6 +15,12 @@ if (numVisits !== 0){
  localStorage.setItem("visits-ls", numVisits);
 
 
- let thisday = 84600000 / Date.now() ;
- lastVisit.textContent = thisday.toFixed(0);
-
+ window.onload = function() {
+    var lastSeen = localStorage.getItem("lastSeen");
+    if (lastSeen) {
+        lastVisit.textContent = lastSeen
+    } else {
+        lastVisit.textContent = lastSeen
+    }
+    localStorage.setItem("lastSeen", new Date());
+};
