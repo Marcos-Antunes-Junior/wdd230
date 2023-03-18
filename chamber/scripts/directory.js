@@ -4,7 +4,6 @@ async function getCompaniesData(url) {
     const response = await fetch(url);
     const data = await response.json();
     displayCompanies(data.companies);
-  
   }
   
   getCompaniesData(url);
@@ -64,7 +63,7 @@ async function getCompaniesData(url) {
     });
 
 
-    }) 
+    });
   } 
 
 

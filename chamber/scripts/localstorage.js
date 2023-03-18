@@ -22,5 +22,6 @@ if (numVisits !== 0){
     } else {
         lastVisit.textContent = lastSeen
     }
+
     localStorage.setItem("lastSeen", new Date());
 };

@@ -42,7 +42,7 @@ header h1 {
   font-family: "Fira Sans", sans-serif;
   animation: glow 2s ease-in-out infinite;
   color: rgba(255, 255, 255, 0.681);
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
 @keyframes glow {
@@ -60,6 +60,7 @@ header h2 {
   margin: 0;
   color: #000;
   font-family: "Fira Sans", sans-serif;
+  font-size: 1.1rem;
 }
 
 header #facebook {
@@ -516,13 +517,22 @@ div img {
   font-weight: 400;
 }
 
+#salvador-information {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: block;
+  justify-self: center;
+}
+
 #salvador-information span {
   font-weight: bolder;
 }
 
 #flag {
   margin: 0 auto;
-  width: 30%;
+  width: 20%;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -531,19 +541,25 @@ div img {
   color: #000;
   font-family: "Fira Sans", sans-serif;
   font-size: 0.8rem;
-  text-align: center;
+
+  
+
+
 }
 
 #flag span {
   color: #000;
   font-family: "Fira Sans", sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-weight: bolder;
 }
 
 #days-ago {
   color: #000;
   font-family: "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 /* --- THANK YOU PAGE --- */
@@ -784,7 +800,7 @@ div.directory-section{
 }
 
 .list div h4{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: "Fira Sans", sans-serif;
   text-align: center;
 }
@@ -822,6 +838,7 @@ div.directory-section{
 iframe {
  display: block;
  justify-self: left;
+ width: 70%;
 }
 
 
