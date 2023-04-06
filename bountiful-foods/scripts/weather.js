@@ -1,10 +1,11 @@
 let cityName = "Carlsbad,us";
-let apiID = "a321a24880d341ec1049227f82a34540";
-const url = `https://api.openweathermap.org/data/2.5/forecast?lat=33.158&lon=-117.351&units=imperial&appid=${apiID}`
-const url1 = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiID}&units=imperial`;
+let apiID = "d87fbe266b8635b2d43f255274f9ce04";
+let apiID2 = "a321a24880d341ec1049227f82a34540";
+const url = `https://api.openweathermap.org/data/2.5/forecast?lat=33.158&lon=-117.351&appid=${apiID}&units=imperial`;
+const url1 = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiID2}&units=imperial`;
 const weather = document.querySelector('.weather');
 
-async function apiFetch2(url1){
+async function apiFetch2(){
 
     try {
         const response = await fetch(url1);
@@ -19,8 +20,6 @@ async function apiFetch2(url1){
         console.log(error);
     }
 }
-
-apiFetch2(url1);
 
 function displayResults(weatherData) {
     let container3 = document.createElement('div');
@@ -52,7 +51,7 @@ function displayResults(weatherData) {
     weather.append(container3);  
 }
 
-async function apiFetch(url) {
+async function apiFetch() {
     try {
         const response = await fetch(url);
         if (response.ok) {
@@ -60,7 +59,7 @@ async function apiFetch(url) {
             console.log(data);
             
             for(let i=0;i<24;i++){
-                let forecast = data.list[i++]
+                let forecast = data.list[i]
                 let dayData = forecast.dt_txt;
                     if(dayData.slice(-8) == "12:00:00" ){   
                         console.log(forecast);
@@ -88,7 +87,7 @@ async function apiFetch(url) {
                         tempData.innerHTML = `<strong>${temp}°F</strong>`;
                         let humidity = forecast.main.humidity;
                         let humidityElement = document.createElement('p');
-                        humidityElement = `Humidity: ${humidity}%`
+                        humidityElement.innerHTML = `Humidity: ${humidity}%`
                         let container2 = document.createElement('div');
                         container2.setAttribute('class', 'temp-image');
                         container.append(dayName);
@@ -108,8 +107,12 @@ async function apiFetch(url) {
     }
 }
 
+function displayResults2(weatherData1){
 
-apiFetch(url);
+}
+
+apiFetch2();
+apiFetch();
 
 
 

@@ -287,6 +287,18 @@ margin-top: 50px;
   font-size: 1.8rem;
 }
 
+.look-weather{
+
+  font-family: 'Montserrat', sans-serif;
+  color: #c20114;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: -10px;
+  margin-bottom: 30px;
+
+}
+
 .weather{
   display: grid;
   
@@ -296,24 +308,28 @@ margin-top: 50px;
 
 .weather-forecast{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 10px 15px;
   box-shadow: 2px 2px 10px black;
   background: linear-gradient(90deg, rgba(236,235,243,1) 11%, rgba(199,214,214,1) 71%);
   border-radius: 5%;
+  padding: 30px;
   font-size: .8rem;
 }
 
 .temp-image{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
 }
 
 .weather-forecast p{
   font-weight: bold;
 }
+
+
 
 
 

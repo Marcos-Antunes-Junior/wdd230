@@ -140,8 +140,9 @@ footer #logo{
 
   .weather{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    align-items: center;
+    
+    
 
     
   }
@@ -149,9 +150,10 @@ footer #logo{
   .weather-forecast{
     display: grid;
     grid-template-columns: 1fr;
-   
-    margin: 10px 15px;
-    width: 10%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 10 px 30px;
+    width: 15%;
     box-shadow: 2px 2px 10px black;
     background: linear-gradient(90deg, rgba(236,235,243,1) 11%, rgba(199,214,214,1) 71%);
     border-radius: 10%;
