@@ -306,6 +306,11 @@ margin-top: 50px;
   
 }
 
+.weather-forecast h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
 .weather-forecast{
   display: grid;
   grid-template-columns: 1fr 1fr;
