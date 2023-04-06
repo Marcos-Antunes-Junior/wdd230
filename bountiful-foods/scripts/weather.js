@@ -20,6 +20,8 @@ async function apiFetch2(url1){
     }
 }
 
+apiFetch2(url1);
+
 function displayResults(weatherData) {
     let container3 = document.createElement('div');
     container3.setAttribute('class', 'weather-forecast');
@@ -106,7 +108,7 @@ async function apiFetch(url) {
     }
 }
 
-apiFetch2(url1);
+
 apiFetch(url);
 
 
