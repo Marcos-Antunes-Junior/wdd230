@@ -30,17 +30,54 @@
 </nav>
 </header>
 <main>
-
+<div class="container">
+        <img src="images/hero-fresh.png" alt="hero image">
+        <div class="container2">
+        <div class="slogan">
+        <h2>Make your</h2>
+        <h2><span>fruit drink mix</span></h2>
+        <p>made with fresh fruits🍓</p>
+        </div>
+        </div>
+        </div>
+<h3>Make your order</h3>
+<div id="fresh-content">
+<form name="form_main" onsubmit="return false;">
+<fieldset>
+<legend>Order Information</legend>
+<label class="top">First Name*<input type="text" name="name" id="name" required></label>
+<label class="top">Phone*<input type="tel" name="phone" placeholder="760-555-0183" id="phone" required></label>
+<label class="top">Email*<input type="email" name="email" placeholder="example@example.com" id="email" required></label>
+</fieldset>
+<fieldset>
+<legend>Please, select the fruits🍓</legend>
+<select class="fruits" name="fruits"></select>
+<select class="fruits1" name="fruits"></select>
+<select class="fruits2" name="fruits"></select>
+<label class="top" for="text">Special Instructions<textarea name="text" id="text" rows="4" cols="50"
+    maxlength="300" oninput="countText()"></textarea>
+</label>
+<div id="counter">
+    <span id="character">0</span><span> / 300</span>
+</div>
+</fieldset>
+<input type="button" value="Make Order" class="submitBtn" onclick="getInputValue();">
+</form>
+<img id="beach" src="images/400x300.png" data-src="images/tablejuice.jpg" alt="a table with juice">
+</div>
+<h3>Your order info</h3>
+<div id="order-data">
+</div>
 </main>
 <footer>
 <div>
 <img id="logo"  src="images/logo-bountiful-footer.webp" alt="bountiful foods logo">
 </div>
 <div class="social">
-<img  src="images/facebook.png" alt="facebook logo" >
-<img   src="images/instagram.png" alt="instagram logo" >
-<img  src="images/linkedin.png" alt="linkedin logo" >
-<img  src="images/twitter.png" alt="twitter logo" >
+    <img id="facebook" src="images/facebook.png" alt="facebook logo">
+    <img id="instagram"  src="images/instagram.png" alt="instagram logo">
+    <img  id="linkedin" src="images/linkedin.png" alt="linkedin logo">
+    <img  id="twitter" src="images/twitter.png" alt="twitter logo">
 </div>
 <p>
     ©<span id="year"></span> Bountiful Foods | Marcos Antunes | Last Updated:
@@ -50,6 +87,7 @@
 </footer>
 <script src="scripts/menu.js"></script>
 <script src="scripts/lazyload.js"></script>
+<script src="scripts/fruitData.js"></script>
 </body>
 
 </html>

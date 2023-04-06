@@ -61,7 +61,7 @@ async function apiFetch() {
             for(let i=0;i<24;i++){
                 let forecast = data.list[i]
                 let dayData = forecast.dt_txt;
-                    if(dayData.slice(-8) == "12:00:00" ){   
+                    if(dayData.slice(-8) == "00:00:00" ){   
                         console.log(forecast);
                         let temp = forecast.main.temp.toFixed(0);
                         let desc = forecast.weather[0].description;

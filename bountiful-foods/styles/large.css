@@ -131,6 +131,7 @@ footer #logo{
   #areas ul li p{
     display: block;
     font-size: 1.2rem;
+    font-weight: 400;
   }
 
   #beach{
@@ -165,20 +166,75 @@ footer #logo{
     font-weight: bold;
   }
 
+  /* ABOUT US */
 
-
-
+#about{
   
+  font-size: 2rem;
+}
 
+#about-us img{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#about-us p{
   
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
 
+#about-us div{
+  grid-column: 2/3;
+}
+#contactus iframe{
+  width: 80%;
+  height: 300px;
+}
 
+/* FRESH PAGE */
 
+#fresh-content img{
+  display: block;
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 40px;
+  
+}
 
+#order-data{
+  
+  margin: 0 300px;
+  margin-bottom: 20px;
 
+}
 
+#order-data p{
+  margin-left: 10px;
+}
 
-
+form select{
+  
+  display: inline;
+}
 
 
 }
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
