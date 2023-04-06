@@ -1,0 +1,180 @@
+@media only screen and (min-width: 64rem) {
+  * {
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+header{
+  box-shadow: 2px 2px 10px black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1{
+  font-size: 1.7rem;
+  text-align: left;
+  margin-left: 10px;
+  padding: 0;
+}
+
+li a {
+  border: none;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 8px;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container img{
+  display: block;
+  grid-column: 1/3;
+  grid-row: 1;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.container2{
+  grid-column: 2/3;
+  grid-row: 1;
+  margin-left: 0;
+  margin-top: 0;
+
+}
+
+.slogan{
+  font-weight: bolder;
+  font-size: 2.8rem;
+  line-height: 20px;
+  margin-top: 25%;
+}
+
+.container2 p{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+nav button{
+  display: none;
+}
+
+
+nav ul.open{
+  display: none;
+}
+
+#hamburgerBtn{
+  display: none;
+}
+
+nav ul li a:hover {
+  color: #c20114;
+  background-color: #ecebf3;
+}
+
+nav ul{
+  display: flex;
+  grid-column: 2;
+  margin: 0 30px;
+  text-align: center;
+  margin-left: 30%;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer #logo{
+  width: 40%;
+}
+
+.social img{
+  width: 3%;
+  cursor: pointer;
+  margin: 10px;
+  
+}
+
+#services{
+  display: flex;
+
+  margin: 0 10px;
+  margin-top: 30px;
+  
+  }
+
+
+
+  h3{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #places{
+    font-size: 2rem;
+  }
+  
+  .places-p{
+    font-size: 1.2rem;
+  }
+
+  #areas ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  #areas ul li p{
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  #beach{
+    width: 90%;
+     
+  }
+
+  .weather{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+    
+  }
+
+  .weather-forecast{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    margin: 10px 15px;
+    width: 10%;
+    box-shadow: 2px 2px 10px black;
+    background: linear-gradient(90deg, rgba(236,235,243,1) 11%, rgba(199,214,214,1) 71%);
+    border-radius: 10%;
+  }
+
+  .weather-forecast p{
+    font-weight: bold;
+  }
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+}
